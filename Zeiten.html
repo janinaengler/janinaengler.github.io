@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<link rel="stylesheet" href="design.css">
+	</head>
+			<header class="mitte">
+				<h3> Öffnungszeiten  </h3>
+		</header>
+	</head>
+
+	<body>
+		
+			 <a href="index.html" class="back-button"> 
+			 	<img src="home_button.png" width="25px" margin="25px" ><head></head>
+			 </a> 
+
+			 <h2>Geschäftszeiten</h2>
+           <div> <ul class="hours-list">
+                <li>Montag: 08:00 - 17:00</li>
+                <li>Dienstag: 08:00 - 17:00</li>
+                <li>Mittwoch: 08:00 - 17:00</li>
+                <li>Donnerstag: 08:00 - 17:00</li>
+                <li>Freitag: 08:00 - 17:00</li>
+                <li>Samstag: 09:00 - 13:00</li>
+                <li>Sonntag: Geschlossen</li>
+            </ul>
+        </div>
+       
+        </div>
+
+                <h2>Anfahrt</h2>
+
+           <img 
+				src="Karte.png"
+				alt="Makierung von dem Standort"
+			/>
+
+
+
+	<header1 class="mitte">
+        <h3>Terminvereinbarung für ein Kundengespräch</h3>
+  	</header1>
+    <main>
+        <form action="termin_bestaetigung.html" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Telefonnummer:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Datum:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Uhrzeit:</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+            <button type="submit">Termin vereinbaren</button>
+        </form>
+    </main>
+</body>
+</html>
